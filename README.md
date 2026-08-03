@@ -15,21 +15,21 @@
 
 # 📖 About The Project
 
-This repository showcases my complete learning journey in **Classical Natural Language Processing (NLP)** using **Python**, **NLTK**, and **Scikit-Learn**.
+This repository demonstrates my complete learning journey in **Classical Natural Language Processing (NLP)** using **Python**, **NLTK**, and **Scikit-Learn**.
 
-The repository covers the complete NLP pipeline—from text preprocessing and feature extraction to building and evaluating machine learning models on a real-world text classification dataset.
+The project covers the complete NLP workflow, including text preprocessing, feature extraction, and machine learning-based text classification using a real-world dataset.
 
-This project was created to strengthen my NLP fundamentals before moving to **Deep Learning**, **Transformers**, and **Large Language Models (LLMs)**.
+The primary objective of this repository is to build a strong foundation in NLP before moving towards **Deep Learning**, **Transformers**, and **Large Language Models (LLMs)**.
 
 ---
 
-# 🚀 Project Highlights
+# 🚀 Repository Highlights
 
 - 📚 Complete NLP Notes
-- 💻 Hands-on NLP Practice
+- 💻 Hands-on Practice Notebook
 - 📊 Real Dataset Implementation
-- 🧹 Complete Text Preprocessing
-- 🔤 Feature Extraction Techniques
+- 🧹 Text Preprocessing
+- 🔤 Feature Extraction
 - 🤖 Machine Learning Text Classification
 - 📈 Model Performance Comparison
 - 🎯 Interview-Oriented Concepts
@@ -39,7 +39,7 @@ This project was created to strengthen my NLP fundamentals before moving to **De
 # 📂 Repository Structure
 
 ```
-Natural-Language-Processing-with-Machine-Learning
+Natural-Language-Processing-with-Machine-Learning/
 │
 ├── README.md
 ├── requirements.txt
@@ -54,7 +54,7 @@ Natural-Language-Processing-with-Machine-Learning
 
 ---
 
-# 📚 NLP Topics Covered
+# 📚 NLP Concepts Covered
 
 ## 🧹 Text Preprocessing
 
@@ -66,7 +66,7 @@ Natural-Language-Processing-with-Machine-Learning
 - Remove Extra Spaces
 - Remove Special Characters
 - Remove Emojis
-- Complete Cleaning Function
+- Complete Text Cleaning Function
 
 ---
 
@@ -102,7 +102,6 @@ Natural-Language-Processing-with-Machine-Learning
 ## 📝 POS Tagging
 
 - Parts of Speech
-- POS Tag Identification
 - Practical Examples
 
 ---
@@ -139,13 +138,13 @@ Natural-Language-Processing-with-Machine-Learning
 - Bag of Words (BoW)
 - CountVectorizer
 - N-Grams
-- TF-IDF (Term Frequency – Inverse Document Frequency)
+- TF-IDF (Term Frequency–Inverse Document Frequency)
 
 ---
 
 # 💻 Practical Implementation
 
-Implemented all NLP concepts using **Python**, **NLTK**, and **Scikit-Learn**, including:
+The repository includes practical implementations of:
 
 - Text Cleaning
 - Tokenization
@@ -162,53 +161,74 @@ Implemented all NLP concepts using **Python**, **NLTK**, and **Scikit-Learn**, i
 - N-Grams
 - TF-IDF
 
+using **Python**, **NLTK**, and **Scikit-Learn**.
+
+---
+
+# 📂 Dataset
+
+This project uses the **Emotions Dataset for NLP**, a publicly available dataset from Kaggle.
+
+**Dataset Source:**
+
+https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp
+
+### Dataset Information
+
+- Dataset Type: Emotion Text Classification
+- Language: English
+- Source: Kaggle
+- Purpose: Educational and Practice
+
+The dataset was used to understand and implement an end-to-end NLP text classification pipeline and compare different feature extraction techniques and machine learning algorithms.
+
 ---
 
 # 🤖 Machine Learning Text Classification
 
-A complete end-to-end text classification pipeline was built using a real-world dataset.
+A complete NLP text classification pipeline was implemented using the above dataset.
 
-## Workflow
+## Project Workflow
 
 ```
 Load Dataset
-      │
-      ▼
-Data Cleaning
-      │
-      ▼
+        │
+        ▼
+Text Cleaning
+        │
+        ▼
 Train-Test Split
-      │
-      ▼
+        │
+        ▼
 Feature Extraction
-      ├── Bag of Words (CountVectorizer)
-      └── TF-IDF (TfidfVectorizer)
-      │
-      ▼
+   ├── Bag of Words
+   └── TF-IDF
+        │
+        ▼
 Machine Learning Models
-      ├── Multinomial Naive Bayes
-      └── Logistic Regression
-      │
-      ▼
+   ├── Multinomial Naive Bayes
+   └── Logistic Regression
+        │
+        ▼
 Prediction
-      │
-      ▼
+        │
+        ▼
 Model Evaluation
-      │
-      ▼
+        │
+        ▼
 Performance Comparison
 ```
 
 ---
 
-# 🤖 Machine Learning Models Used
+# 🤖 Machine Learning Models
 
 - Multinomial Naive Bayes
 - Logistic Regression
 
 ---
 
-# 📊 Model Performance
+# 📊 Model Performance Comparison
 
 | Feature Extraction | Machine Learning Model | Accuracy |
 |--------------------|------------------------|---------:|
@@ -224,7 +244,7 @@ Performance Comparison
 |--------------------|-------|---------:|
 | **TF-IDF** | **Logistic Regression** | **86.28%** |
 
-The experimental results indicate that **TF-IDF combined with Logistic Regression** achieved the highest accuracy among the evaluated combinations.
+The comparison shows that **TF-IDF with Logistic Regression** achieved the highest accuracy on the selected dataset.
 
 ---
 
@@ -276,12 +296,12 @@ from sklearn.metrics import accuracy_score
 - Chunking
 - Named Entity Recognition
 - Frequency Distribution
+- Feature Engineering
 - One-Hot Encoding
 - Bag of Words
 - CountVectorizer
 - N-Grams
 - TF-IDF
-- Feature Engineering
 - Text Classification
 - Logistic Regression
 - Multinomial Naive Bayes
@@ -293,21 +313,20 @@ from sklearn.metrics import accuracy_score
 
 # 📈 Learning Outcomes
 
-Through this repository, I learned how to:
+After completing this repository, I learned how to:
 
-- Preprocess raw text data.
 - Build complete text preprocessing pipelines.
-- Apply feature extraction techniques.
-- Convert text into numerical representations.
+- Convert raw text into numerical features.
+- Apply Bag of Words and TF-IDF for feature extraction.
 - Train and evaluate machine learning models.
-- Compare multiple NLP feature extraction techniques.
+- Compare different NLP feature extraction techniques.
 - Build an end-to-end text classification workflow.
 
 ---
 
 # 🚀 Future Roadmap
 
-The next phase of my NLP learning journey includes:
+The next phase of my NLP journey includes:
 
 - Word2Vec
 - FastText
@@ -316,41 +335,33 @@ The next phase of my NLP learning journey includes:
 - RNN
 - LSTM
 - GRU
-- Seq2Seq Models
-- Attention Mechanism
 - Transformers
 - BERT
 - GPT
-- Retrieval-Augmented Generation (RAG)
 - Large Language Models (LLMs)
 
 ---
 
 # 📌 Repository Highlights
 
-✅ Complete NLP Notes
-
-✅ Hands-on Practice
-
-✅ Real Dataset Implementation
-
-✅ Feature Extraction
-
-✅ Multiple Machine Learning Models
-
-✅ Accuracy Comparison
-
-✅ Interview-Oriented Learning
-
-✅ End-to-End NLP Pipeline
+- ✅ Complete NLP Notes
+- ✅ Hands-on Practice
+- ✅ Real Dataset Implementation
+- ✅ Feature Extraction Techniques
+- ✅ Multiple Machine Learning Models
+- ✅ Model Performance Comparison
+- ✅ End-to-End NLP Pipeline
 
 ---
 
-# 🤝 Contributing
+# 📌 Disclaimer
 
-Suggestions and improvements are always welcome.
+This repository is created for **educational and learning purposes**.
 
-If you find this project useful, feel free to fork the repository or open an issue.
+The dataset used in this project is publicly available on Kaggle. All credit for the dataset goes to its original creator.
+
+Dataset:
+https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp
 
 ---
 
