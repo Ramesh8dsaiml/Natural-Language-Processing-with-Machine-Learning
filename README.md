@@ -45,7 +45,6 @@ Natural-Language-Processing-with-Machine-Learning/
 ├── requirements.txt
 ├── .gitignore
 │
-├── NLP.pdf
 ├── train.txt
 │
 ├── 01_NLP_Practice.ipynb
